@@ -1,0 +1,75 @@
+body {
+    background: silver;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#input {
+    background: #fff;
+    border: none;
+    padding: 40px 60px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 350px;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+#email_input {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+label {
+    font-size: 1.1rem;
+    color: #333;
+    font-weight: 500;
+}
+
+input[name="email_input_field"]{
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    transition: border 0.2s;
+}
+
+input[name="password_input_field"] {
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    transition: border 0.2s;
+}
+
+#buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+button {
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 30px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+#submit_button {
+    background: slateblue;
+}
